@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "807285008189",
+    "firebase_url": "https://psiim-c16ef.firebaseio.com",
+    "project_id": "psiim-c16ef",
+    "storage_bucket": "psiim-c16ef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807285008189:android:78a3ebc41298354c",
+        "android_client_info": {
+          "package_name": "com.example.tomek.psiim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "807285008189-a3o1vaara0599tdoa5e44p9qq7sa8vjg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxluBQCYRlgNky9nwkitvqCIx412T1UFE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
