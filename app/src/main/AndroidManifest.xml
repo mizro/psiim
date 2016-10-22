@@ -25,6 +25,9 @@
         <activity android:name=".ProfileActivity" />
         <activity
             android:name=".AddAnimal"
+            android:parentActivityName=".ProfileActivity"></activity>
+        <activity
+            android:name=".ShowAnimalDetails"
             android:parentActivityName=".ProfileActivity">
         </activity>
     </application>

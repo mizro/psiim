@@ -11,6 +11,7 @@ import android.widget.TextView;
 
 import com.example.tomek.psiim.Dog;
 import com.example.tomek.psiim.R;
+import com.example.tomek.psiim.ShowAnimalDetails;
 //import com.example.tomek.psiim.ShowAnimalDetails;
 
 import java.util.ArrayList;
@@ -63,14 +64,14 @@ public class AnimalAdapter extends RecyclerView.Adapter<AnimalAdapter.AnimalView
         holder.tvAnimalName.setTextColor(Color.BLUE);
 
 
-//        holder.cvAnimals.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(holder.context, ShowAnimalDetails.class);
-//                intent.putExtra(ShowAnimalDetails.ANIMAL_NAME, dog.getName());
-//                holder.context.startActivity(intent);
-//            }
-//        });
+        holder.cvAnimals.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(holder.context, ShowAnimalDetails.class);
+                intent.putExtra(ShowAnimalDetails.ANIMAL_NAME, dog.getName());
+                holder.context.startActivity(intent);
+            }
+        });
 
     }
 
